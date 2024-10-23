@@ -1,0 +1,26 @@
+{
+  "name": "swagger-express",
+  "version": "0.0.0",
+  "description": "A simple example of how to setup swagger with in an express application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "swagger",
+    "apiDoc"
+  ],
+  "author": "Asif Vudi || Co-founder & COO at Perceptron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
